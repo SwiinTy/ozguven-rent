@@ -28,9 +28,10 @@ export default function Home() {
         <FleetSection lang={lang} />
       </div>
 
-      <div id="services">
-        <ServicesSection lang={lang} />
-      </div>
+      {/* <div id="services">
+  <ServicesSection lang={lang} />
+</div> 
+*/}
 
       <Footer lang={lang} />
     </main>
