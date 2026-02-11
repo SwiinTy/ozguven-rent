@@ -16,7 +16,6 @@ export function Footer({ lang = "tr" }: { lang: string }) {
     ],
     hizmetler: [
       { label: lang === 'tr' ? "Araç Kiralama" : lang === 'ru' ? "Аренда авто" : "Car Rental", href: "#fleet" },
-      { label: lang === 'tr' ? "Transfer" : lang === 'ru' ? "Трансфер" : "Transfer", href: "#services" },
     ],
     destek: [
       { label: lang === 'tr' ? "İletişim" : lang === 'ru' ? "Контакты" : "Contact", href: "#contact" },
